@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "plugin:flowtype/recommended",
+    "prettier",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react",
+    "react-native",
+    "flowtype"
+  ],
+  "rules": {
+    "strict": 0,
+    "react/prop-types": 0
+  }
+}
